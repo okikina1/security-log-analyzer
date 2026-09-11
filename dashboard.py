@@ -38,15 +38,17 @@ col4.metric("High Severity Alerts", high_alerts)
 col5.metric("Medium Severity Alerts", medium_alerts)
 
 # Activity over time
-st.subheader("Security Events Over Time")
+st.subheader("Security Events by Hour")
 
-events_over_time = (
-    df.set_index("timestamp")
-    .resample("1h")
-    .size()
-)
+events_by_hour = df.copy()
 
-st.line_chart(events_over_time)
+events_by_hour["hour"] = events_by_hour["timestamp"].dt.hour
+
+hourly_events = events_by_hour.groupby("hour").size()
+
+hourly_events.index = hourly_events.index.map(lambda x: f"{x:02d}:00")
+
+st.bar_chart(hourly_events)
 
 # Security alerts
 st.subheader("Security Alerts")
