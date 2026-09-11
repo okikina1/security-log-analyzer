@@ -1,4 +1,4 @@
-203.0.113.102026-09-01 08:05:12 LOGIN_SUCCESS user=admin ip=192.168.1.10
+2026-09-01 08:05:12 LOGIN_SUCCESS user=admin ip=192.168.1.10
 2026-09-01 08:07:34 FILE_ACCESS user=admin ip=192.168.1.10 file=report.pdf
 2026-09-01 08:12:45 FILE_ACCESS user=admin ip=192.168.1.10 file=employees.xlsx
 2026-09-01 08:18:21 LOGOUT user=admin ip=192.168.1.10
