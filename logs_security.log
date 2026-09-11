@@ -1,0 +1,121 @@
+2026-09-01 08:05:12 LOGIN_SUCCESS user=admin ip=192.168.1.10
+2026-09-01 08:07:34 FILE_ACCESS user=admin ip=192.168.1.10 file=report.pdf
+2026-09-01 08:12:45 FILE_ACCESS user=admin ip=192.168.1.10 file=employees.xlsx
+2026-09-01 08:18:21 LOGOUT user=admin ip=192.168.1.10
+2026-09-01 08:25:03 LOGIN_SUCCESS user=john ip=192.168.1.20
+2026-09-01 08:26:17 FILE_ACCESS user=john ip=192.168.1.20 file=notes.txt
+2026-09-01 08:31:42 FILE_ACCESS user=john ip=192.168.1.20 file=project.docx
+2026-09-01 08:35:29 LOGOUT user=john ip=192.168.1.20
+
+2026-09-01 09:01:15 LOGIN_SUCCESS user=sarah ip=192.168.1.30
+2026-09-01 09:04:28 FILE_ACCESS user=sarah ip=192.168.1.30 file=budget.xlsx
+2026-09-01 09:08:51 FILE_ACCESS user=sarah ip=192.168.1.30 file=summary.pdf
+2026-09-01 09:12:09 LOGOUT user=sarah ip=192.168.1.30
+
+2026-09-01 09:15:01 LOGIN_FAILED user=admin ip=45.23.12.8
+2026-09-01 09:15:32 LOGIN_FAILED user=admin ip=45.23.12.8
+2026-09-01 09:16:04 LOGIN_FAILED user=admin ip=45.23.12.8
+2026-09-01 09:16:41 LOGIN_FAILED user=admin ip=45.23.12.8
+2026-09-01 09:17:45 LOGIN_FAILED user=admin ip=45.23.12.8
+2026-09-01 09:18:01 LOGIN_SUCCESS user=admin ip=45.23.12.8
+
+2026-09-01 09:20:15 FILE_ACCESS user=admin ip=45.23.12.8 file=system.log
+2026-09-01 09:21:33 FILE_ACCESS user=admin ip=45.23.12.8 file=config.json
+2026-09-01 09:23:11 LOGOUT user=admin ip=45.23.12.8
+
+2026-09-01 09:30:12 LOGIN_SUCCESS user=maria ip=192.168.1.40
+2026-09-01 09:32:25 FILE_ACCESS user=maria ip=192.168.1.40 file=invoice.pdf
+2026-09-01 09:35:17 LOGOUT user=maria ip=192.168.1.40
+
+2026-09-01 10:01:08 LOGIN_SUCCESS user=alex ip=192.168.1.50
+2026-09-01 10:03:22 FILE_ACCESS user=alex ip=192.168.1.50 file=database.sql
+2026-09-01 10:07:44 FILE_ACCESS user=alex ip=192.168.1.50 file=backup.zip
+2026-09-01 10:10:31 LOGOUT user=alex ip=192.168.1.50
+
+2026-09-01 10:15:02 LOGIN_FAILED user=john ip=192.168.1.20
+2026-09-01 10:15:48 LOGIN_FAILED user=john ip=192.168.1.20
+2026-09-01 10:16:21 LOGIN_FAILED user=john ip=192.168.1.20
+2026-09-01 10:17:55 LOGIN_SUCCESS user=john ip=192.168.1.20
+
+2026-09-01 10:20:13 FILE_ACCESS user=john ip=192.168.1.20 file=project.zip
+2026-09-01 10:22:41 LOGOUT user=john ip=192.168.1.20
+
+2026-09-01 10:30:07 LOGIN_SUCCESS user=sarah ip=192.168.1.30
+2026-09-01 10:32:19 FILE_ACCESS user=sarah ip=192.168.1.30 file=customers.csv
+2026-09-01 10:35:48 LOGOUT user=sarah ip=192.168.1.30
+
+2026-09-01 11:00:14 LOGIN_SUCCESS user=admin ip=10.20.30.40
+2026-09-01 11:02:31 FILE_ACCESS user=admin ip=10.20.30.40 file=server_config.txt
+2026-09-01 11:04:55 LOGOUT user=admin ip=10.20.30.40
+
+2026-09-01 11:15:22 LOGIN_SUCCESS user=maria ip=192.168.1.40
+2026-09-01 11:18:37 FILE_ACCESS user=maria ip=192.168.1.40 file=reports.xlsx
+2026-09-01 11:21:05 LOGOUT user=maria ip=192.168.1.40
+
+2026-09-01 11:30:44 LOGIN_SUCCESS user=alex ip=192.168.1.50
+2026-09-01 11:33:12 FILE_ACCESS user=alex ip=192.168.1.50 file=application.log
+2026-09-01 11:36:28 FILE_ACCESS user=alex ip=192.168.1.50 file=users.csv
+2026-09-01 11:39:51 LOGOUT user=alex ip=192.168.1.50
+
+2026-09-01 12:00:03 LOGIN_SUCCESS user=admin ip=192.168.1.10
+2026-09-01 12:01:14 FILE_ACCESS user=admin ip=192.168.1.10 file=security_policy.pdf
+2026-09-01 12:02:31 FILE_ACCESS user=admin ip=192.168.1.10 file=network.txt
+2026-09-01 12:03:45 FILE_ACCESS user=admin ip=192.168.1.10 file=firewall.conf
+2026-09-01 12:05:02 FILE_ACCESS user=admin ip=192.168.1.10 file=users.db
+2026-09-01 12:06:19 FILE_ACCESS user=admin ip=192.168.1.10 file=access.log
+2026-09-01 12:07:33 FILE_ACCESS user=admin ip=192.168.1.10 file=backup.sql
+2026-09-01 12:08:47 FILE_ACCESS user=admin ip=192.168.1.10 file=server.log
+2026-09-01 12:10:01 FILE_ACCESS user=admin ip=192.168.1.10 file=system.conf
+2026-09-01 12:11:22 FILE_ACCESS user=admin ip=192.168.1.10 file=database.db
+2026-09-01 12:12:38 FILE_ACCESS user=admin ip=192.168.1.10 file=credentials.txt
+2026-09-01 12:13:54 FILE_ACCESS user=admin ip=192.168.1.10 file=audit.log
+2026-09-01 12:15:10 FILE_ACCESS user=admin ip=192.168.1.10 file=application.conf
+2026-09-01 12:16:29 LOGOUT user=admin ip=192.168.1.10
+
+2026-09-01 13:00:17 LOGIN_SUCCESS user=john ip=192.168.1.20
+2026-09-01 13:04:35 FILE_ACCESS user=john ip=192.168.1.20 file=meeting.docx
+2026-09-01 13:08:52 LOGOUT user=john ip=192.168.1.20
+
+2026-09-01 13:20:11 LOGIN_SUCCESS user=sarah ip=192.168.1.30
+2026-09-01 13:23:44 FILE_ACCESS user=sarah ip=192.168.1.30 file=analytics.csv
+2026-09-01 13:27:19 LOGOUT user=sarah ip=192.168.1.30
+
+2026-09-01 14:05:03 LOGIN_SUCCESS user=maria ip=192.168.1.40
+2026-09-01 14:08:27 FILE_ACCESS user=maria ip=192.168.1.40 file=contracts.pdf
+2026-09-01 14:12:46 LOGOUT user=maria ip=192.168.1.40
+
+2026-09-01 14:30:18 LOGIN_SUCCESS user=alex ip=192.168.1.50
+2026-09-01 14:33:41 FILE_ACCESS user=alex ip=192.168.1.50 file=source_code.zip
+2026-09-01 14:37:05 LOGOUT user=alex ip=192.168.1.50
+
+2026-09-01 15:10:22 LOGIN_FAILED user=alex ip=192.168.1.50
+2026-09-01 15:11:04 LOGIN_FAILED user=alex ip=192.168.1.50
+2026-09-01 15:11:49 LOGIN_FAILED user=alex ip=192.168.1.50
+2026-09-01 15:12:33 LOGIN_SUCCESS user=alex ip=192.168.1.50
+
+2026-09-01 15:15:47 FILE_ACCESS user=alex ip=192.168.1.50 file=deployment.zip
+2026-09-01 15:18:29 LOGOUT user=alex ip=192.168.1.50
+
+2026-09-01 16:00:05 LOGIN_SUCCESS user=admin ip=192.168.1.10
+2026-09-01 16:03:18 FILE_ACCESS user=admin ip=192.168.1.10 file=monitoring.log
+2026-09-01 16:07:41 LOGOUT user=admin ip=192.168.1.10
+
+2026-09-01 16:30:12 LOGIN_SUCCESS user=john ip=192.168.1.20
+2026-09-01 16:33:25 FILE_ACCESS user=john ip=192.168.1.20 file=employee_list.xlsx
+2026-09-01 16:36:44 LOGOUT user=john ip=192.168.1.20
+
+2026-09-01 17:15:02 LOGIN_SUCCESS user=sarah ip=192.168.1.30
+2026-09-01 17:18:33 FILE_ACCESS user=sarah ip=192.168.1.30 file=report.pdf
+2026-09-01 17:22:51 LOGOUT user=sarah ip=192.168.1.30
+
+2026-09-01 18:05:19 LOGIN_SUCCESS user=maria ip=192.168.1.40
+2026-09-01 18:07:42 FILE_ACCESS user=maria ip=192.168.1.40 file=financial_report.xlsx
+2026-09-01 18:10:03 LOGOUT user=maria ip=192.168.1.40
+
+2026-09-01 19:20:11 LOGIN_SUCCESS user=alex ip=192.168.1.50
+2026-09-01 19:23:47 FILE_ACCESS user=alex ip=192.168.1.50 file=server_backup.zip
+2026-09-01 19:26:29 LOGOUT user=alex ip=192.168.1.50
+
+2026-09-01 23:45:00 LOGIN_SUCCESS user=admin ip=45.23.12.8
+2026-09-01 23:46:12 FILE_ACCESS user=admin ip=45.23.12.8 file=database.db
+2026-09-01 23:48:33 LOGOUT user=admin ip=45.23.12.8
