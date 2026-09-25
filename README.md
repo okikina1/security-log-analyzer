@@ -45,6 +45,15 @@ Security Alerts
 Streamlit Dashboard
 ```
 
+## Dashboard
+
+The dashboard provides an overview of detected security alerts, activity trends, and filtering options.
+
+![Security Log Analyzer Dashboard](dashboard-overview.png)
+
+![Security Alerts](security-alerts.png)
+```
+
 ## Run the Project
 
 Install the required packages:
